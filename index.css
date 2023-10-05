@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    transition: 0.5s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+} */
+
+.web-logo p{
+   background-color: aquamarine;
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(84, 6, 100);
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.nav-menu-section{
+    background-color: transparent;
+}
+
+.nav-menu-section ul{
+    list-style-type: none;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-menu-section ul li{
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-menu-section ul li:hover{
+    text-shadow: rgb(2, 2, 2) 1px 0px 2px;
+    /* font-weight: 600; */
+}
+
+.banner-section{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-food-seasoning-food-banner-image_169169.jpg");
+    min-height: 300px;
+    padding: 10px;
+    background-size: cover;
+}
+
+.banner-section div{
+    color: white;
+    animation:fadeIn 0.6s ease-in backwards;
+}
+
+.banner-section div h1{
+    transform: scale(1);
+}
+
+.banner-text-content {
+    text-align: center;
+    line-height: 40px;
+    color: #ffff;
+
+  }
+  
+  .banner-text-content h1 span {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .banner-text-content h1 span:hover {
+    text-shadow: 0 5px 10px #00ff8c;
+    transform: translateY(-10px);
+  }
+
+.banner-text-content h1 span {
+    display: inline-block;
+  }
+  
+  .banner-text-content span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .banner-text-content span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .banner-text-content span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  .banner-text-content span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+
+
+.view-btn{
+    background-color: aquamarine;
+    padding: 7px;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+.view-btn:hover{
+    box-shadow: 0px 0px 2px 2px whitesmoke;
+    animation: shake 1s ease-in-out forwards;
+}
+
+.order-btn{
+    background: transparent;
+    outline: none;
+    border: 1px solid aquamarine;
+    color: aquamarine;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.order-btn:hover{
+    box-shadow: 0px 0px 2px 2px whitesmoke;
+    animation: shake 1s ease-in-out forwards;
+
+   
+}
+
+.why-choose-us-sec{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f9fbfe;
+  padding: 10px;
+  
+}
+
+.wcu-sec{
+  display: flex;
+ flex-wrap: wrap; 
+}
+
+.why-choose-us-sec h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.why-choose-us-sec p{
+  font-size: 18px;
+  color: #5a7184;
+}
+.wcu-card{
+  background-color: aquamarine;
+  border-radius: 13px;
+}
+
+.wcu-card img{
+  animation: floating 3s ease-in-out infinite;
+}
+
+.icon{
+  color: white;
+  height: 160px;
+  margin: 0;
+}
+
+.food-icon{
+  height: 90px;
+  padding: 10px;
+  margin: 20px;
+}
+.card-image{
+  height: 130px;
+}
+
+
+.menus-section{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px;
+}
+
+.Explore-section-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.card-container {
+  border-radius: 10px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-viewall {
+  color: #d0b200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+}
+
+.healthy-food-section {
+  background-color: #f9fbfe;
+}
+
+.healthy-section-image {
+  width: 270px;
+  border-radius: 100px;
+}
+
+.healthy-section-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.healthy-section-description {
+  color: #5a7184;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+}
+
+.follow-us-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+
+.modal-heading {
+  color: #d0b200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.follow-icon {
+  font-size: 35px;
+}
+
+
+
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes shake {
+    0% { 
+      transform: rotate(4deg);
+    }
+    50% {
+     transform: rotate(-4deg);
+    }
+    70% {
+      transform: rotate(4deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
